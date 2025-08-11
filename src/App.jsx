@@ -5,7 +5,7 @@ import About from './sections/About'
 import Projects from './sections/Projects'
 const App = () => {
   return (
-    <div container mx-auto mx-w-7xl>
+    <div className='container mx-auto mx-w-7xl'>
       <Navbar />
       <Hero />
       <About />
